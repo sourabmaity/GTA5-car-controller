@@ -1,29 +1,4 @@
-'''import pyvjoy
-import time
-#Pythonic API, item-at-a-time
-
-j = pyvjoy.VJoyDevice(1)
-time.sleep(5)
-print("rady")
-#turn button number 15 on
-a = 20000
-val=1
-j.update()
-
-while 1:
-
-    j.set_button(val,1)
-    time.sleep(5)
-    j.set_button(val,0)
-    time.sleep(5)
-    val+=1
-    if(val==8):
-        val=1
-'''
-
-
-
-
+#GTA 5 car controller
 import cv2
 import numpy as np
 import pyvjoy
